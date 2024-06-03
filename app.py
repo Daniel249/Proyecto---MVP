@@ -59,7 +59,7 @@ def login():
             return redirect(url_for('index'))
         else:
             print("else not user")
-            return 'Nombre de usuario o contraseña incorrectos.'
+            #return 'Nombre de usuario o contraseña incorrectos.'
     return render_template('login.html')
 
 @app.route('/logout')
